@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/review_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/small_margin"
+        android:backgroundTint="@color/colorPrimaryDark"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:id="@+id/container_review_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/review_author_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/small_margin"
+                android:fontFamily="@font/product_sans_bold"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/medium_text_size"
+                tools:text="@string/dummy_author" />
+
+            <TextView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/review_author_text"
+                android:layout_marginBottom="@dimen/small_margin"
+                android:background="@color/dimmedTextColor" />
+
+            <TextView
+                android:id="@+id/review_content_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line"
+                android:fontFamily="@font/product_sans_regular"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                tools:text="@string/dummy_review" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SecondSubmission</string>
+    <string name="discover">Discover</string>
+    <string name="movies">Movies</string>
+    <string name="tv_show">Tv Show</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_title">Dark Phoenix</string>
+    <string name="dummyRating">3.9</string>
+    <string name="dummyPopularity">1000</string>
+    <string name="recommended">Recommended</string>
+    <string name="dummy_date">2019</string>
+    <string name="upcoming_list">Upcoming List</string>
+    <string name="on_air">On Air</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="genres">Genres</string>
+    <string name="dummy_genre">Action, Adventure, Sci-Fi</string>
+    <string name="rating">Rating</string>
+    <string name="dummy_language">EN</string>
+    <string name="popularity">Popularity</string>
+    <string name="voted">Voted</string>
+    <string name="dummy_voted">200</string>
+    <string name="overview">Overview</string>
+    <string name="dummy_overview">Lorem ipsum</string>
+    <string name="trailers">Trailers</string>
+    <string name="reviews">Reviews</string>
+    <string name="dummy_author">Leon Pin</string>
+    <string name="dummy_review">Lorem ipsum</string>
+</resources>
